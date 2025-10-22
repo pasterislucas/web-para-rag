@@ -1,6 +1,55 @@
 {
   "items": [
-    
+    {
+      "file": "Adelantos-de-saldo.pdf",
+      "title": "Adelantos de Saldo",
+      "size": 0
+    },
+    {
+      "file": "Alta-de-usuarios-totalcoin.pdf",
+      "title": "Alta de Usuarios TotalCoin",
+      "size": 0
+    },
+    {
+      "file": "Creacion-de-roles.pdf",
+      "title": "Creación de Roles",
+      "size": 0
+    },
+    {
+      "file": "Creacion-y-tipos-de-QR.pdf",
+      "title": "Creación y Tipos de QR",
+      "size": 0
+    },
+    {
+      "file": "Debitos-automaticos.pdf",
+      "title": "Débitos Automáticos",
+      "size": 0
+    },
+    {
+      "file": "Manual-Boton-de-Pago.pdf",
+      "title": "Manual Botón de Pago",
+      "size": 0
+    },
+    {
+      "file": "Modulo-QR.pdf",
+      "title": "Módulo QR",
+      "size": 0
+    },
+    {
+      "file": "Portal-de-Gestion.pdf",
+      "title": "Portal de Gestión",
+      "size": 0
+    },
+    {
+      "file": "Roles.pdf",
+      "title": "Roles",
+      "size": 0
+    },
+    {
+      "file": "SSH.pdf",
+      "title": "SSH",
+      "size": 0
+    }
   ]
 }
 

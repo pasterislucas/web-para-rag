@@ -9,12 +9,13 @@
   <body>
     <header class="header">
       <h1>Repositorio de PDFs</h1>
-      <p class="subtitle">Proyecto estático (HTML/CSS/JS) desplegado en GitLab Pages</p>
+      <p class="subtitle">Proyecto estático (HTML/CSS/JS) desplegado en GitHub Pages</p>
     </header>
 
     <main class="container">
       <section class="panel">
-        <h2>Listado publicado</h2>
+        <h2>📚 Índice de Documentos</h2>
+        <p class="hint">Haz clic en cualquier documento para abrirlo en una nueva pestaña o usar el visor integrado.</p>
         <div id="pdf-list" class="pdf-grid" aria-live="polite"></div>
         <div id="empty-state" class="empty" hidden>
           Aún no hay PDFs publicados en <code>public/pdfs/</code>.
@@ -22,11 +23,19 @@
       </section>
 
       <section class="panel">
-        <h2>Probar con un PDF local (no se sube al servidor)</h2>
+        <h2>🔍 Visor Integrado</h2>
         <p class="hint">
-          Selecciona un archivo PDF para previsualizarlo localmente en tu navegador.
-          Esto no lo guarda ni lo sube; para publicar de verdad, añade el PDF a
-          <code>public/pdfs/</code> y actualiza <code>manifest.json</code>.
+          Usa el botón "Abrir integrado" de cualquier documento para previsualizarlo aquí.
+        </p>
+        <div id="global-viewer" class="viewer" hidden>
+          <iframe title="Visor de PDF"></iframe>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>🧪 Probar PDF Local</h2>
+        <p class="hint">
+          Selecciona un archivo PDF para previsualizarlo localmente (no se sube al servidor).
         </p>
         <input id="file-input" type="file" accept="application/pdf" />
         <div id="local-preview" class="viewer" hidden>

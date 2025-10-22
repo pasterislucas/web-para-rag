@@ -53,8 +53,8 @@ html, body {
 
 .pdf-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
 }
 
 .pdf-card {
@@ -66,7 +66,9 @@ html, body {
 
 .pdf-card h3 {
   margin: 0 0 8px;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
 }
 
 .pdf-meta { color: var(--muted); font-size: 12px; }
