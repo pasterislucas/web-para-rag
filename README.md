@@ -1,6 +1,6 @@
-## Sitio estático para publicar PDFs (GitLab Pages)
+## Sitio estático para publicar PDFs (GitHub Pages)
 
-Proyecto simple con HTML/CSS/JS para listar y visualizar PDFs. Despliegue automático en GitLab Pages.
+Proyecto simple con HTML/CSS/JS para listar y visualizar PDFs. Despliegue automático en GitHub Pages.
 
 ### Estructura
 
@@ -12,7 +12,7 @@ public/
   pdfs/
     manifest.json
     (tus-archivos.pdf)
-.gitlab-ci.yml
+.github/workflows/deploy.yml
 ```
 
 ### Probar localmente
@@ -24,9 +24,9 @@ public/
 
 1. Copia un archivo PDF a `public/pdfs/`, por ejemplo `ejemplo.pdf`.
 2. Haz commit y push a la rama principal por defecto (`main` o `master`).
-3. El pipeline generará `public/pdfs/manifest.json` automáticamente con los PDFs encontrados.
-4. GitLab ejecutará el job `pages` y publicará el sitio.
-5. Accede a la URL de Pages: `https://<usuario-o-grupo>.gitlab.io/<repositorio>/`.
+3. GitHub Actions generará `public/pdfs/manifest.json` automáticamente con los PDFs encontrados.
+4. GitHub Pages publicará el sitio automáticamente.
+5. Accede a la URL de Pages: `https://<usuario>.github.io/<repositorio>/`.
 
 ### Límite de tamaño
 
