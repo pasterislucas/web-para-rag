@@ -1,0 +1,23 @@
+# Permitir acceso general
+User-agent: *
+Allow: /
+
+# Microsoft Bing / Copilot Studio
+User-agent: bingbot
+Allow: /
+
+User-agent: BingBot
+Allow: /
+
+# Otros crawlers de IA (opcional pero recomendado)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
