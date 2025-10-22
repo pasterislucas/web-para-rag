@@ -42,6 +42,35 @@
           <iframe id="local-iframe" title="Vista previa local"></iframe>
         </div>
       </section>
+
+      <section class="panel">
+        <h2>🔐 ¿Qué es SSH?</h2>
+        <div class="ssh-explanation">
+          <p>SSH (Secure Shell) es un protocolo que permite conectarse de forma segura a otros computadores a través de una red. A diferencia de métodos antiguos, SSH cifra toda la comunicación para proteger tus datos.</p>
+          
+          <p>Lo que hace especial a SSH es su sistema de autenticación mediante claves:</p>
+          <ol>
+            <li><strong>La clave privada:</strong> Es como tu llave personal secreta que solo tú tienes y nunca compartes.</li>
+            <li><strong>La clave pública:</strong> Es como un candado especial que puedes distribuir libremente a cualquier servidor al que quieras conectarte.</li>
+          </ol>
+          
+          <p>Cuando ambas claves se combinan correctamente, se confirma tu identidad sin necesidad de enviar contraseñas a través de la red.</p>
+          
+          <div class="analogy">
+            <h3>🏛️ Analogía con la Escítala Espartana</h3>
+            <p>Imagina que SSH funciona como el antiguo sistema de comunicación secreta de los espartanos llamado "escítala":</p>
+            <ol>
+              <li>Tú (el cliente) tienes un bastón de madera con un diámetro específico (clave privada) que solo posees tú.</li>
+              <li>Tu amigo (el servidor) también tiene un bastón del exactamente mismo diámetro (conoce tu clave pública).</li>
+              <li>Cuando quieres enviar un mensaje secreto, enrollas una tira de cuero alrededor de tu bastón y escribes el mensaje a lo largo del bastón.</li>
+              <li>Al desenrollar la tira de cuero, las letras quedan dispersas y el mensaje se vuelve ilegible para cualquiera que lo intercepte.</li>
+              <li>Solo alguien que tenga un bastón del mismo diámetro exacto (tu clave pública) podrá enrollar la tira correctamente y leer el mensaje original.</li>
+              <li>Cuando tu amigo recibe la tira de cuero, la enrolla en su bastón idéntico y puede leer el mensaje perfectamente.</li>
+            </ol>
+            <p>Esta antigua técnica criptográfica espartana representa perfectamente el concepto de SSH: solo quien posee la "medida correcta" (clave correspondiente) puede descifrar el mensaje, y cualquiera que intercepte la comunicación solo verá caracteres desordenados sin sentido.</p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
